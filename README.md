@@ -1,8 +1,11 @@
 Hey! This is Jackson Nace. I want to thank ClairDeCoder for his amazing repo which allowed me to convert my minecraft server and sharing my public ip (probably not the greatest idea) to my new ip, mc.jacksonnace.net:(portnumber here). I realized a few things after cloning this:::
 
-creating an IAM user within AWS with access to Route53 is the safest way to do this. there is zero reason to give your VM full root access, as this code only needs your route 53 hosting zone and access id/key.
-Another thing I realized is that after running the command "sudo nano" on the config files, i realized these files actually use IPv6 addresses, whereas my virtual machine with ubuntu linux was actually using IPv4, which was quite an error to work through.
-Another thing is you need to verify you have the python libraries, python, pip3, and boto installed in order to run this script.
+-creating an IAM user within AWS with access to Route53 is the safest way to do this. there is zero reason to give your VM full root access, as this code only needs your route 53 hosting zone and access id/key.
+
+-Another thing I realized is that after running the command "sudo nano" on the config files, i realized these files actually use IPv6 addresses, whereas my virtual machine with ubuntu linux was actually using IPv4, which was quite an error to work through.
+After changing the urls to text based and removing the json from the second file, I used websites like ipv4.icanhazip to give me a IPv4 address instead. amazingly dynamic and perfect to switch out super quick.
+
+-Another thing is you need to verify you have the python libraries, python, pip3, and boto installed in order to run this script.
 
 After I fixed both of these issues (IPv6->IPv4, installations with my minimalist nogui ubuntu linux), this code ran perfectly even a year after his last commit. Thanks ClairDeCoder!!
 
