@@ -1,4 +1,4 @@
-Hey! This is Jackson Nace. I want to thank ClairDeCoder for his amazing repo which allowed me to convert my minecraft server and sharing my public ip (probably not the greatest idea) to my new ip, mc.jacksonnace.net:(portnumber here). I realized a few things after cloning this:::
+Hey! This is Jackson Nace. I want to thank ClairDeCoder for his amazing repo which allowed me to convert my server and sharing my public ip (probably not the greatest idea) to my new ip, mc.jacksonnace.net:(portnumber here). I realized a few things after cloning this:::
 
 -creating an IAM user within AWS with access to Route53 is the safest way to do this. there is zero reason to give your VM full root access, as this code only needs your route 53 hosting zone and access id/key.
 
